@@ -1,0 +1,292 @@
+
+.docplanner-header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+.docplanner-logo img{
+    width: 268px;
+    height: 33px;
+     
+  }
+.img {
+    vertical-align:middle;
+    border: 0;  
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;      
+}
+.header-menu {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#About, #Career:hover, #Departments:hover {
+    color: #00b39b;
+    text-decoration: none;
+}
+#Career, #Departments {
+    color: #ababab;
+}
+#headerlogo  {
+    width: 50px;
+    height: 50px;  
+    
+
+}
+#introduction-title {color: #00b39b;
+
+font-family: Work Sans, Arial, sans-serif;
+font-weight: 300;
+padding-top: 20px;
+}
+h1 {
+    color: #00b39b;
+    margin-left:70px;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    text-align: center;
+}
+.introduction-text {
+    color: #747474;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 260px;
+    padding-right: 280px;
+    width: 100%;
+    justify-content: space-between;
+}
+.p1 {
+    padding-right: 30px;
+}
+div {
+    display: block;
+}
+
+.services{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    
+}
+.service-card{
+    padding:20px;
+    border-radius:8px;
+    color:white;
+    margin:10px;
+    position: relative;
+    height: 200px;
+  
+}
+.service-card-patients{background-color:#00ccb1;; height:300px;width:300px
+}
+.service-card-doctors{background-color:#3d83df;;height:300px; width:300px;}
+.service-card-clinics{background-color:#1b2734;; height:300px; width:300px}
+.service-card-select{background-color:white ;
+padding: 10px;
+border-radius: 5px;}
+.service-card-image{
+    width:100px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+}
+.adress-container {   
+    display: flex;
+    width: 100%
+    align-items: center;
+    
+}
+.adress-container h1 {
+    font-family: 'Charmonman', cursive;
+    color:rgb(0,204,177);
+    width: 30%;
+    
+}
+.adress-list-of-links {
+    width:70%;
+    margin-left: 10%;
+  
+}
+.adress-list-of-links ul {
+    list-style-type: none;
+    line-height: 3;
+    margin: 10;
+    padding: 10;
+  
+    margin-left: 10%;
+    
+
+   
+}
+.adress-list-of-links li {
+    float:left;
+    margin-right: 15px;
+   flex-direction: row;
+}
+
+
+.adress-list-of-links img {
+    height: 22px;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.stats-container {
+    background: linear-gradient(80deg,white,rgb(0,204,177));
+    display: flex;
+    height: 450px;
+    padding: 3%;
+    overflow: hidden;
+    
+}
+.introduction-box {
+    width: 500%;
+    height:500%;
+}
+.introduction-box h1 {
+    color: rgb(0,177,159);
+    font-family: 'Charmonman', cursive;
+    margin-bottom: 7%;
+}
+.introduction-box p {
+    opacity: 0.4;
+}
+.introduction-logo img {
+    height: 231px;
+    width: 100%;
+    margin-top: 5%;
+}
+.stats {
+    text-align: center;
+    width: 60%;
+    margin: 0 4% 0 19%;
+   
+    
+    
+}
+.stats h1 {
+    color: rgb(0,197,155);
+    font-family: 'Charmonman', cursive;
+}
+    .stats-box {
+        
+        background-color: white;
+        border-radius: 7%;
+        width: 2500px;
+        margin-right: 5%;
+    }
+    .stats-box-colomn-2 {
+        display: flex;
+        margin-top:1%;
+    }
+    .stats-box-colomn-1 {
+        display: flex;
+    }
+
+.box-3 p {
+    margin-right: 17%;
+    margin-top: -5%;
+}
+.box-4 p {
+    margin-right: 17%;
+}
+.offices-description {
+    text-align: center;
+}
+.offices-description h1 {
+    color: rgb(0,197,155);
+    font-family: 'Charmonman', cursive;
+}
+.offices-description p {
+    text-align: center;
+    color: black;
+    opacity: .7;
+}
+.offices-colomn-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    
+}
+.offices-colomn-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    flex-wrap: wrap;
+}
+.offices-colomn-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    
+   
+}
+.offices-colomn-1 p {
+    font-family: 'Charmonman', cursive;
+}
+.offices-box p {
+    font-family: 'Charmonman', cursive;
+}
+   
+    
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5cm;
+    justify-content: center;
+   
+}
+.buttons div {
+    border-radius: 3%;
+    margin: 0.44%;
+    background-color: rgb(61,131,223);
+    color:white;
+}
+
+
+    
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;}
+        .section h1 {
+            font-size: 2.1428571429em;
+            color: #333;
+            margin-bottom: 0.75em;
+            font-family: Work Sans, Arial, sans-serif;
+            font-weight: 300;
+            letter-spacing: -0.3px;
+            text-align: center;
+        }
+        
+    footer {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 12px;
+        font-family: Roboto, Arial, sans-serif;
+        color: #ababab;
+        padding-left: 100px;
+        padding-right: 100px;}
